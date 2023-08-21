@@ -1,0 +1,15 @@
+#include <unistd.h> 
+
+
+void z(char z){
+    
+z = 'z';
+write(1, &z, 1);
+write(1, "\n", 1);   
+}
+
+void main(){
+    
+    z('z');
+    return 0;
+} 
